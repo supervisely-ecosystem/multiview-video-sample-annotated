@@ -1,0 +1,12 @@
+{
+    "name": "Multiview Video Sample Annotated",
+    "description": "Sample project with 4 videos from different camera angles.",
+    "type": "project",
+    "categories": [
+        "import",
+        "videos",
+        "project"
+    ],
+    "icon": "https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/image.png",
+    "icon_cover": true
+}
