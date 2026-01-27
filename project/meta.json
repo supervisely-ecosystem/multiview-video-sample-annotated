@@ -1,0 +1,44 @@
+{
+    "classes": [
+        {
+            "title": "box",
+            "description": "",
+            "shape": "polygon",
+            "color": "#AEFF01",
+            "geometry_config": {},
+            "id": 154610,
+            "hotkey": ""
+        },
+        {
+            "title": "chalk",
+            "description": "",
+            "shape": "polygon",
+            "color": "#8F00FE",
+            "geometry_config": {},
+            "id": 154611,
+            "hotkey": ""
+        }
+    ],
+    "tags": [
+        {
+            "name": "color",
+            "value_type": "any_string",
+            "color": "#FF03D6",
+            "id": 30370,
+            "hotkey": "",
+            "applicable_type": "objectsOnly",
+            "classes": [],
+            "target_type": "entitiesOnly"
+        }
+    ],
+    "projectType": "videos",
+    "projectSettings": {
+        "multiView": {
+            "enabled": false,
+            "tagName": null,
+            "tagId": null,
+            "isSynced": false
+        },
+        "labelingInterface": "multi_view"
+    }
+}
