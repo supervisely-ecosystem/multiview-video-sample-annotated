@@ -26,4 +26,4 @@ This is a sample of 4 multiview videos from different camera angles.
 
 ## Download
 
-Supervisely format: [tar archive](https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/project.tar) (88.6 MB).
+Supervisely format: [tar archive](https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.1/project.tar) (88.6 MB).
