@@ -2,8 +2,6 @@
 
 <img src="https://i.imgur.com/UdBujFN.png" width="250" /> <br>
 
-<img src="https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/image.png" width="100"/>
-
 # Multiview Video Sample Annotated
 
 <p align="center">
@@ -20,10 +18,10 @@
 
 ## Overview
 
-This is a sample of 4 multiview videos from different camera angles.
+This is a multiview project video sample consisting of four videos, each representing a different camera view.
 
 <img src="https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/screenshot-dev-internal-supervisely-com-app-videos_v3-1768485576526.png" />
 
 ## Download
 
-Supervisely format: [tar archive](https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.1/project.zip) (88.6 MB).
+Multiview project sample in Supervisely format (88.6 MB): [Download ZIP archive](https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.1/project.zip)
