@@ -29,15 +29,6 @@
             "applicable_type": "objectsOnly",
             "classes": [],
             "target_type": "entitiesOnly"
-        },
-        {
-            "name": "multiview",
-            "value_type": "any_string",
-            "color": "#00FF00",
-            "id": 30371,
-            "hotkey": "",
-            "applicable_type": "all",
-            "classes": []
         }
     ],
     "projectType": "videos",
