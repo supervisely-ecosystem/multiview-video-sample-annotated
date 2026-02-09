@@ -22,11 +22,12 @@ This is a multiview project video sample consisting of four synchronized videos,
 
 ### Annotation Details
 
-The project was annotated using CoTracker for precise object segmentation and AutoTrack for automated object tracking across video frames.
+The annotations were created using [AutoTrack](https://docs.supervisely.com/labeling/labeling-toolbox/videos-3.0#auto-tracking) with connection to CoTracker.
 
 ### Classes and Tags
 
 The project includes 2 object classes: `box` for annotating boxes and `chalk` for annotating chalk objects. Additionally, there is 1 object tag `color` - a tag for additional color-based object properties.
+
 <img src="https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/screenshot-dev-internal-supervisely-com-app-videos_v3-1768485576526.png" />
 
 ## Download
