@@ -18,18 +18,15 @@
 
 ## Overview
 
-This is a multiview project video sample consisting of four videos, each representing a different camera view.. The project demonstrates multi-camera video annotation capabilities in Supervisely platform.
-
-The dataset consists of 4 synchronized video streams from different camera viewpoints (synchronization achieved using time offset), video annotations with polygon shapes for object tracking, metadata files containing camera and video information.
+This is a multiview project video sample consisting of four synchronized videos, each representing a different camera view (synchronization achieved using time offset), annotated with polygon shapes for object tracking.
 
 ### Annotation Details
 
-The project was annotated using SAM3 (Segment Anything Model 3) for precise object segmentation and AutoTrack for automated object tracking across video frames.
+The project was annotated using CoTracker for precise object segmentation and AutoTrack for automated object tracking across video frames.
 
 ### Classes and Tags
 
 The project includes 2 object classes: `box` for annotating boxes and `chalk` for annotating chalk objects. Additionally, there is 1 object tag `color` - a tag for additional color-based object properties.
-
 <img src="https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/screenshot-dev-internal-supervisely-com-app-videos_v3-1768485576526.png" />
 
 ## Download
