@@ -18,16 +18,15 @@
 
 ## Overview
 
-This is a multiview project video sample consisting of four synchronized videos, each representing a different camera view (synchronization achieved using time offset), annotated with polygon shapes for object tracking.
+This is a multiview video project sample consisting of four synchronized videos, each representing a different camera view (synchronization achieved using time offset), annotated with polygon shapes for object tracking.
 
 ### Annotation Details
 
-The annotations were created using [AutoTrack](https://docs.supervisely.com/labeling/labeling-toolbox/videos-3.0#auto-tracking) with connection to CoTracker.
+The annotation was performed by manually creating first frames for each video and then using AutoTrack to propagate the annotations across the frames. The annotation process was done in a way to ensure that the same objects across different views have the same object IDs, allowing for easy tracking and analysis of objects across multiple camera angles. The [CoTracker](https://ecosystem.supervisely.com/apps/co-tracker/supervisely_integration/serve) model was connected to the AutoTrack tool to track point-based geometry (polygon) objects across the frames, with manual adjustments when needed.
 
 ### Classes and Tags
 
 The project includes 2 object classes: `box` for annotating boxes and `chalk` for annotating chalk objects. Additionally, there is 1 object tag `color` - a tag for additional color-based object properties.
-
 <img src="https://github.com/supervisely-ecosystem/multiview-video-sample-annotated/releases/download/v1.0.0/screenshot-dev-internal-supervisely-com-app-videos_v3-1768485576526.png" />
 
 ## Download
