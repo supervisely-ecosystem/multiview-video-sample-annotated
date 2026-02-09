@@ -22,7 +22,7 @@ This is a multiview video project sample consisting of four synchronized videos,
 
 ### Annotation Details
 
-The annotation was performed by manually creating first frames for each video and then using AutoTrack to propagate the annotations across the frames. The annotation process was done in a way to ensure that the same objects across different views have the same object IDs, allowing for easy tracking and analysis of objects across multiple camera angles. The [CoTracker](https://ecosystem.supervisely.com/apps/co-tracker/supervisely_integration/serve) model was connected to the AutoTrack tool to track point-based geometry (polygon) objects across the frames, with manual adjustments when needed.
+The annotation was performed by manually creating first frames for each video and then using AutoTrack to propagate the annotations across the frames. The annotation process was done in a way to ensure that the same objects across different views have the same object IDs, allowing for easy tracking and analysis of objects across multiple camera angles. The [CoTracker](https://ecosystem.supervisely.com/apps/co-tracker/supervisely_integration/serve) model was connected to the [AutoTrack](https://docs.supervisely.com/labeling/labeling-toolbox/videos-3.0#auto-tracking) tool to track point-based geometry (polygon) objects across the frames, with manual adjustments when needed.
 
 ### Classes and Tags
 
